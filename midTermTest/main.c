@@ -18,5 +18,9 @@ int main(int argc, const char * argv[]) {
     //akash was here again
     //mason was here
     //gwen was here
+<<<<<<< HEAD
+=======
+    //Nick (IDE_Devops Team Scrum MASTer)
+>>>>>>> fd1acda1ea4e38e40e6ab000339dd0a24d8357da
     return 0;
 }
