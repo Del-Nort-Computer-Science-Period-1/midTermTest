@@ -17,6 +17,7 @@
         
         char correctanswer = 'b';
         
+        // Print out the user options
         printf("What does the + operator do in C?\n");
         printf("A: Subtracts two operands\n");
         printf("B: Adds two operands\n");
