@@ -13,6 +13,7 @@ int main(int argc, const char * argv[]) {
     while ( i < 10) {
         printf("Hello, World! count %i\n", i);
         i++;
+        //colin says "good morning"
     }
     //akash was here
     //colin was here
