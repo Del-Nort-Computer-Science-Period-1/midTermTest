@@ -7,6 +7,8 @@
 //
 
 #include <stdio.h>
+#include "devopsGit.h"
+
 
 int main(int argc, const char * argv[]) {
     int i = 0;
