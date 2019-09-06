@@ -23,5 +23,8 @@ int main(int argc, const char * argv[]) {
     //mason was here
     //gwen was here
     //Nick (IDE_Devops Team Scrum MASTer)
+    
+    devopsGit(); //This is the devopsGit's teams question
+    
     return 0;
 }
