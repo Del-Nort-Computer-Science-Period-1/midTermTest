@@ -9,8 +9,11 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    int i = 0;
+    while ( i < 10) {
+        printf("Hello, World! %i\n", i);
+        i++;
+    }
     //akash was here
     //colin was here
     //Mr M was here, here again
