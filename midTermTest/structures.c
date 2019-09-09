@@ -25,7 +25,6 @@ int structures(void)
         case 'A':
         case 'a':
             puts("Sorry, you are incorrect.");
-            puts("Array is a data structure consisting of a collection of values and variables.");
             break;
         case 'B':
         case 'b':
@@ -34,12 +33,10 @@ int structures(void)
         case 'C':
         case 'c':
             puts("Sorry, you are incorrect.");
-            puts("Stack is a linear data structure that allows data to be added or removed from only the top.");
             break;
         case 'D':
         case 'd':
             puts("Sorry, you are incorrect.");
-            puts("Tree is a collection of nodes where each node is a data structure consisting of a value." );
             break;
     }
     return 0;
