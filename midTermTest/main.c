@@ -8,6 +8,8 @@
 
 #include <stdio.h>
 #include "devopsGit.h"
+#include "structures.h"
+#include "devopsIDE.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -27,6 +29,6 @@ int main(int argc, const char * argv[]) {
     //Nick (IDE_Devops Team Scrum MASTer)
     
     devopsGit(); //This is the devopsGit's teams question
+    devopsIDE();
     
-    return 0;
 }
