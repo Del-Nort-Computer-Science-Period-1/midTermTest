@@ -11,6 +11,7 @@
 		6DD494CF2322B7F0006720F1 /* structures.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DD494CE2322B7F0006720F1 /* structures.c */; };
 		82349F9E2320151300BB354F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82349F9D2320151300BB354F /* main.c */; };
 		A22EF86A2322B5C20023794E /* devopsGit.c in Sources */ = {isa = PBXBuildFile; fileRef = A22EF8692322B5C20023794E /* devopsGit.c */; };
+		E5E41AAB2322BCFD003DC3BB /* Cf.c in Sources */ = {isa = PBXBuildFile; fileRef = E5E41AAA2322BCFD003DC3BB /* Cf.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		82349F9D2320151300BB354F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A22EF8682322B5C20023794E /* devopsGit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = devopsGit.h; sourceTree = "<group>"; };
 		A22EF8692322B5C20023794E /* devopsGit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = devopsGit.c; sourceTree = "<group>"; };
+		E5E41AA92322BCFD003DC3BB /* Cf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cf.h; sourceTree = "<group>"; };
+		E5E41AAA2322BCFD003DC3BB /* Cf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Cf.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				3E1057BF2322B87C00EDB573 /* devopsIDE.c */,
 				6DD494CD2322B7F0006720F1 /* structures.h */,
 				6DD494CE2322B7F0006720F1 /* structures.c */,
+				E5E41AA92322BCFD003DC3BB /* Cf.h */,
+				E5E41AAA2322BCFD003DC3BB /* Cf.c */,
 			);
 			path = midTermTest;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			files = (
 				82349F9E2320151300BB354F /* main.c in Sources */,
 				A22EF86A2322B5C20023794E /* devopsGit.c in Sources */,
+				E5E41AAB2322BCFD003DC3BB /* Cf.c in Sources */,
 				6DD494CF2322B7F0006720F1 /* structures.c in Sources */,
 				3E1057C02322B87C00EDB573 /* devopsIDE.c in Sources */,
 			);

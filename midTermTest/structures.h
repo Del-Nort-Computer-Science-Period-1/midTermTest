@@ -10,5 +10,5 @@
 #define structures_h
 
 #include <stdio.h>
-
+int structures(void);
 #endif /* structures_h */
