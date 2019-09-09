@@ -10,6 +10,7 @@
 		6DD494CF2322B7F0006720F1 /* structures.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DD494CE2322B7F0006720F1 /* structures.c */; };
 		82349F9E2320151300BB354F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82349F9D2320151300BB354F /* main.c */; };
 		A22EF86A2322B5C20023794E /* devopsGit.c in Sources */ = {isa = PBXBuildFile; fileRef = A22EF8692322B5C20023794E /* devopsGit.c */; };
+		C2FFAF912326A42A00557012 /* productowners.c in Sources */ = {isa = PBXBuildFile; fileRef = C2FFAF902326A42A00557012 /* productowners.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		82349F9D2320151300BB354F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A22EF8682322B5C20023794E /* devopsGit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = devopsGit.h; sourceTree = "<group>"; };
 		A22EF8692322B5C20023794E /* devopsGit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = devopsGit.c; sourceTree = "<group>"; };
+		C2FFAF8F2326A42A00557012 /* productowners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = productowners.h; sourceTree = "<group>"; };
+		C2FFAF902326A42A00557012 /* productowners.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = productowners.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				A22EF8692322B5C20023794E /* devopsGit.c */,
 				6DD494CD2322B7F0006720F1 /* structures.h */,
 				6DD494CE2322B7F0006720F1 /* structures.c */,
+				C2FFAF8F2326A42A00557012 /* productowners.h */,
+				C2FFAF902326A42A00557012 /* productowners.c */,
 			);
 			path = midTermTest;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 				82349F9E2320151300BB354F /* main.c in Sources */,
 				A22EF86A2322B5C20023794E /* devopsGit.c in Sources */,
 				6DD494CF2322B7F0006720F1 /* structures.c in Sources */,
+				C2FFAF912326A42A00557012 /* productowners.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
