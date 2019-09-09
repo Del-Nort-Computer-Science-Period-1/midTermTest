@@ -8,11 +8,13 @@
 
 #include <stdio.h>
 #include "devopsGit.h"
+#include "structures.h"
+#include "devopsIDE.h"
 
 
 int main(int argc, const char * argv[]) {
-    
-    devopsGit(); //This is the devopsGit's teams question
-    
+    devopsGit(); //DevopsGit's question
+    structures(); //Structures Question
+    productowners(); //product owners question
     return 0;
 }
