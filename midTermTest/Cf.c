@@ -15,9 +15,9 @@ int DF(void) {
     puts("b. at the end of the loop");
     puts("c. both a and b");
     puts("d. none of these. \n");
-    
     puts("Enter your answer from 1 to 4 \n");
-    answer = getchar();
+    
+    while( (answer=getchar() != '\n') && answer != EOF);
     switch (answer)
     {
         case 'a': puts("Sorry, you're incorrect");

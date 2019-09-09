@@ -32,7 +32,7 @@
 		3E1057BF2322B87C00EDB573 /* devopsIDE.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = devopsIDE.c; sourceTree = "<group>"; };
 		6DD494CD2322B7F0006720F1 /* structures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structures.h; sourceTree = "<group>"; };
 		6DD494CE2322B7F0006720F1 /* structures.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = structures.c; sourceTree = "<group>"; };
-		82349F9A2320151300BB354F /* midTermTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = midTermTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82349F9A2320151300BB354F /* midTermTestP1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = midTermTestP1; sourceTree = BUILT_PRODUCTS_DIR; };
 		82349F9D2320151300BB354F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A22EF8682322B5C20023794E /* devopsGit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = devopsGit.h; sourceTree = "<group>"; };
 		A22EF8692322B5C20023794E /* devopsGit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = devopsGit.c; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		82349F9B2320151300BB354F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82349F9A2320151300BB354F /* midTermTest */,
+				82349F9A2320151300BB354F /* midTermTestP1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,9 +90,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82349F992320151300BB354F /* midTermTest */ = {
+		82349F992320151300BB354F /* midTermTestP1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82349FA12320151300BB354F /* Build configuration list for PBXNativeTarget "midTermTest" */;
+			buildConfigurationList = 82349FA12320151300BB354F /* Build configuration list for PBXNativeTarget "midTermTestP1" */;
 			buildPhases = (
 				82349F962320151300BB354F /* Sources */,
 				82349F972320151300BB354F /* Frameworks */,
@@ -102,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = midTermTest;
+			name = midTermTestP1;
 			productName = midTermTest;
-			productReference = 82349F9A2320151300BB354F /* midTermTest */;
+			productReference = 82349F9A2320151300BB354F /* midTermTestP1 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -121,7 +121,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 82349F952320151300BB354F /* Build configuration list for PBXProject "midTermTest" */;
+			buildConfigurationList = 82349F952320151300BB354F /* Build configuration list for PBXProject "midTermTestP1" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82349F992320151300BB354F /* midTermTest */,
+				82349F992320151300BB354F /* midTermTestP1 */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +285,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82349F952320151300BB354F /* Build configuration list for PBXProject "midTermTest" */ = {
+		82349F952320151300BB354F /* Build configuration list for PBXProject "midTermTestP1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82349F9F2320151300BB354F /* Debug */,
@@ -294,7 +294,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82349FA12320151300BB354F /* Build configuration list for PBXNativeTarget "midTermTest" */ = {
+		82349FA12320151300BB354F /* Build configuration list for PBXNativeTarget "midTermTestP1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82349FA22320151300BB354F /* Debug */,

@@ -16,10 +16,10 @@ int structures(void)
     puts("B. Bob the Builder");
     puts("C. Stack");
     puts("D. Tree");
+    
     //User input
     puts("Enter your answer from A to D \n");
-    answer = getchar();
-    answer = getchar();
+    while( (answer=getchar() != '\n') && answer != EOF);
     switch (answer)
     
     {
