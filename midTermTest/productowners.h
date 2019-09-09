@@ -10,5 +10,5 @@
 #define productowners_h
 
 #include <stdio.h>
-
+int productowners(void);
 #endif /* productowners_h */
