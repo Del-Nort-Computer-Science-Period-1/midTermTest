@@ -10,6 +10,7 @@
 		3E1057C02322B87C00EDB573 /* devopsIDE.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E1057BF2322B87C00EDB573 /* devopsIDE.c */; };
 		6DD494CF2322B7F0006720F1 /* structures.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DD494CE2322B7F0006720F1 /* structures.c */; };
 		82349F9E2320151300BB354F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82349F9D2320151300BB354F /* main.c */; };
+		92A550C623280F5500366485 /* fdt.c in Sources */ = {isa = PBXBuildFile; fileRef = 92A550C523280F5500366485 /* fdt.c */; };
 		A22EF86A2322B5C20023794E /* devopsGit.c in Sources */ = {isa = PBXBuildFile; fileRef = A22EF8692322B5C20023794E /* devopsGit.c */; };
 		C2FFAF932326B27C00557012 /* productowners.c in Sources */ = {isa = PBXBuildFile; fileRef = C2FFAF922326B27C00557012 /* productowners.c */; };
 		E5E41AAB2322BCFD003DC3BB /* Cf.c in Sources */ = {isa = PBXBuildFile; fileRef = E5E41AAA2322BCFD003DC3BB /* Cf.c */; };
@@ -34,6 +35,8 @@
 		6DD494CE2322B7F0006720F1 /* structures.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = structures.c; sourceTree = "<group>"; };
 		82349F9A2320151300BB354F /* midTermTestP1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = midTermTestP1; sourceTree = BUILT_PRODUCTS_DIR; };
 		82349F9D2320151300BB354F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		92A550C423280F5500366485 /* fdt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fdt.h; sourceTree = "<group>"; };
+		92A550C523280F5500366485 /* fdt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fdt.c; sourceTree = "<group>"; };
 		A22EF8682322B5C20023794E /* devopsGit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = devopsGit.h; sourceTree = "<group>"; };
 		A22EF8692322B5C20023794E /* devopsGit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = devopsGit.c; sourceTree = "<group>"; };
 		C2FFAF922326B27C00557012 /* productowners.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = productowners.c; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 				C2FFAF942326B28500557012 /* productowners.h */,
 				E5E41AA92322BCFD003DC3BB /* Cf.h */,
 				E5E41AAA2322BCFD003DC3BB /* Cf.c */,
+				92A550C423280F5500366485 /* fdt.h */,
+				92A550C523280F5500366485 /* fdt.c */,
 			);
 			path = midTermTest;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A550C623280F5500366485 /* fdt.c in Sources */,
 				82349F9E2320151300BB354F /* main.c in Sources */,
 				C2FFAF932326B27C00557012 /* productowners.c in Sources */,
 				A22EF86A2322B5C20023794E /* devopsGit.c in Sources */,
