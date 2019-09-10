@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47D6E2F72328059D002A4FBF /* controlflowops.c in Sources */ = {isa = PBXBuildFile; fileRef = 47D6E2F62328059D002A4FBF /* controlflowops.c */; };
 		6DD494CF2322B7F0006720F1 /* structures.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DD494CE2322B7F0006720F1 /* structures.c */; };
 		82349F9E2320151300BB354F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82349F9D2320151300BB354F /* main.c */; };
 		A22EF86A2322B5C20023794E /* devopsGit.c in Sources */ = {isa = PBXBuildFile; fileRef = A22EF8692322B5C20023794E /* devopsGit.c */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		47D6E2F52328059D002A4FBF /* controlflowops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = controlflowops.h; sourceTree = "<group>"; };
+		47D6E2F62328059D002A4FBF /* controlflowops.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = controlflowops.c; sourceTree = "<group>"; };
 		6DD494CD2322B7F0006720F1 /* structures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structures.h; sourceTree = "<group>"; };
 		6DD494CE2322B7F0006720F1 /* structures.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = structures.c; sourceTree = "<group>"; };
 		82349F9A2320151300BB354F /* midTermTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = midTermTest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +76,8 @@
 				6DD494CE2322B7F0006720F1 /* structures.c */,
 				C2FFAF8F2326A42A00557012 /* productowners.h */,
 				C2FFAF902326A42A00557012 /* productowners.c */,
+				47D6E2F52328059D002A4FBF /* controlflowops.h */,
+				47D6E2F62328059D002A4FBF /* controlflowops.c */,
 			);
 			path = midTermTest;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 				A22EF86A2322B5C20023794E /* devopsGit.c in Sources */,
 				6DD494CF2322B7F0006720F1 /* structures.c in Sources */,
 				C2FFAF912326A42A00557012 /* productowners.c in Sources */,
+				47D6E2F72328059D002A4FBF /* controlflowops.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
