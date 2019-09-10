@@ -37,5 +37,7 @@ int devopsGit(void) {
         case 'd':
             printf("Incorrect.\n");
             break;
-    } return 0;
+    }
+    return 0;
+
 }

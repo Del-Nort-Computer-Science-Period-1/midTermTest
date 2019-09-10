@@ -13,5 +13,5 @@ int main(int argc, const char * argv[]) {
     
     devopsGit(); //This is the devopsGit's teams question
     structures(); //Structures Question
-    return 0;
+
 }
