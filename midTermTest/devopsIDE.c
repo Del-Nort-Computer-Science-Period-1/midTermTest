@@ -16,9 +16,10 @@ int devopsIDE(void) {
         puts("B. Yes, but it must be implemented correctly");
         puts("C. No, it may crash the code");
         puts("D. No, it may crash the ENTIRE computer. \n");
-        //User input
         puts("Enter your answer from A to D \n");
-        answer = getchar();
+    
+        //User input
+        while( (answer=getchar() != '\n') && answer != EOF);
         switch(answer)
         {
             case 'A':
