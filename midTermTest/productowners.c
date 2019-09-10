@@ -16,7 +16,7 @@ int productowners(void) {
     puts("(C): Bjarne Stroustrup\n");
     puts("(D): Nobody\n");
     
-    answer = getchar();
+    while( (answer=getchar() != '\n') && answer != EOF);
     switch(answer)
     {
         case 'A':
