@@ -79,8 +79,8 @@
 				3E1057BF2322B87C00EDB573 /* devopsIDE.c */,
 				6DD494CD2322B7F0006720F1 /* structures.h */,
 				6DD494CE2322B7F0006720F1 /* structures.c */,
-				C2FFAF922326B27C00557012 /* productowners.c */,
 				C2FFAF942326B28500557012 /* productowners.h */,
+				C2FFAF922326B27C00557012 /* productowners.c */,
 				E5E41AA92322BCFD003DC3BB /* Cf.h */,
 				E5E41AAA2322BCFD003DC3BB /* Cf.c */,
 			);
