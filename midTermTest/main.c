@@ -2,6 +2,8 @@
 //  main.c
 //  midTermTest
 //
+//  Edited by Colin on 9/4/19.
+//  Edited by Dominick
 //  Edited by Sengupta, Dhruv on 9/4/19.
 //  Copyright © 2019 Szeto, Colin All rights reserved.
 //  Created by Szeto, Colin on 9/4/19.
