@@ -2,8 +2,19 @@
 //  main.c
 //  midTermTest
 //
+//  Created by Szeto, Colin on 9/4/19.
+//  Edited by Joseph, here again
+//  Edited by Nagesh, Shreya
+//  Edited by Ravula, Neeha
+//  Edited by Nick, Taha
+//  Edited by Alec
+//  Edited by Tianna
 //  Edited by Colin on 9/4/19
 //  Edited by Alex T
+//  Edited by Mr M
+//  Edited by Akash Das 
+//  Edited by Mason
+//  Edited by Gwen Vestal
 //
 
 // standard libraries
