@@ -12,7 +12,7 @@
 //  Edited by Mr M
 //  Edited by Akash Das 
 //  Edited by Mason
-//  Edited by Gwen Vestal
+//  Edited by Gwendolyn Vestal
 //
 
 // standard libraries
