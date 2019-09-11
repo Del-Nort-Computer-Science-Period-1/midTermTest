@@ -2,7 +2,10 @@
 //  main.c
 //  midTermTest
 //
+//  Edited by Sengupta, Dhruv on 9/4/19.
+//  Copyright © 2019 Sengupta, Dhruv All rights reserved.
 //  Created by Szeto, Colin on 9/4/19.
+//  Edited by Joseph, here again
 //  Edited by Lola Bulkin, here x2
 //  Edited by Nagesh, Shreya
 //  Edited by Ravula, Neeha
@@ -10,11 +13,11 @@
 //  Edited by Alec
 //  Edited by Tianna
 //  Edited by Colin on 9/4/19
+//  Edited by Alex T
 //  Edited by Mr M
 //  Edited by Akash Das 
 //  Edited by Mason
-//  Edited by Gwen Vestal
-//
+// edited by Michael
 
 // standard libraries
 #include <stdio.h>
@@ -37,6 +40,7 @@ int main(int argc, const char * argv[]) {
     structures(); //Structures Question
     devopsIDE(); //dev.ide questions
     productowners(); //product owners question
+    
     return 0;
 }
 
