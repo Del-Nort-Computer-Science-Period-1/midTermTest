@@ -4,10 +4,12 @@
 //
 //  Created by Szeto, Colin on 9/4/19.
 //  Edited by Lola Bulkin, here again
+//  Edited by Alec
 //  Edited by Tianna
 //  Edited by Colin on 9/4/19
 //  Edited by Mr M
-//
+//  Edited by Akash Das 
+//  Edited by Mason
 
 // standard libraries
 #include <stdio.h>
