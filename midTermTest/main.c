@@ -24,6 +24,9 @@
 //  Edited by Michael
 //  Edited by Sengupta, Dhruv
 //  Edited by Kevin
+//  Edited by Gwendolyn Vestal
+//
+
 // standard libraries
 #include <stdio.h>
 
