@@ -6,7 +6,7 @@
 //  Copyright © 2019 Sengupta, Dhruv All rights reserved.
 //  Created by Szeto, Colin on 9/4/19.
 //  Edited by Joseph, here again
-//  Edited by Lola Bulkin, here x2
+//  Edited by Lola Bulkin
 //  Edited by Nagesh, Shreya
 //  Edited by Ravula, Neeha
 //  Edited by Nick, Taha
