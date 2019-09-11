@@ -2,8 +2,8 @@
 //  main.c
 //  midTermTest
 //
-//  Created by Szeto, Colin on 9/4/19.
-//  Copyright © 2019 Szeto, Colin. All rights reserved.
+//  Edited by Colin on 9/4/19.
+//  Edited by Dominick
 //
 
 // standard libraries
