@@ -14,7 +14,7 @@
 //  Edited by Mr M
 //  Edited by Akash Das 
 //  Edited by Mason
-// edited by Michael
+//  Edited by Michael
 
 // standard libraries
 #include <stdio.h>
