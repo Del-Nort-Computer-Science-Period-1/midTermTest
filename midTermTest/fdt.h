@@ -2,7 +2,7 @@
 //  fdt.h
 //  midTermTestP1
 //
-//  Created by Ravula, Neeharika on 9/10/19.
+//  Created by Ravula, Neeha on 9/10/19.
 //  Copyright © 2019 Szeto, Colin. All rights reserved.
 //
 
