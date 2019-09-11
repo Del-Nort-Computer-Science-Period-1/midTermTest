@@ -10,6 +10,8 @@
 #include "devopsGit.h"
 #include "structures.h"
 #include "devopsIDE.h"
+#include "productowners.h"
+
 
 
 int main(int argc, const char * argv[]) {
