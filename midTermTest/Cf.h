@@ -10,5 +10,4 @@
 #define Cf_h
 
 #include <stdio.h>
-
 #endif /* Cf_h */
