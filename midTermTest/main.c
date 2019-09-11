@@ -3,7 +3,7 @@
 //  midTermTest
 //
 //  Edited by Colin on 9/4/19
-//  Edited by Mr M
+//  Edited by Alex T
 //
 
 // standard libraries
