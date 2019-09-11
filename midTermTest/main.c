@@ -6,18 +6,29 @@
 //  Copyright © 2019 Szeto, Colin. All rights reserved.
 //
 
+// standard libraries
 #include <stdio.h>
+
+// external includes from team headers
 #include "devopsGit.h"
 #include "structures.h"
 #include "devopsIDE.h"
 #include "productowners.h"
 
+// protoype for internal functions
+void prepareConsole(void);
 
-
+// entry point for MidTerm
 int main(int argc, const char * argv[]) {
     devopsGit(); //DevopsGit's question
     structures(); //Structures Question
     devopsIDE(); //dev.ide questions
     productowners(); //product owners question
     return 0;
+}
+
+// clear console
+void prepareConsole(void)
+{
+    printf("\033");
 }
