@@ -4,7 +4,7 @@
 //
 //  Created by Szeto, Colin on 9/4/19.
 //  Edited by Alec
-//  Edited by Dane
+//  Dane Vestal
 //  Edited by Tianna
 //  Edited by Colin on 9/4/19
 //  Edited by Mr M
