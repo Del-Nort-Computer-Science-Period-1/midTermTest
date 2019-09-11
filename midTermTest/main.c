@@ -20,6 +20,9 @@ void prepareConsole(void);
 
 // entry point for MidTerm
 int main(int argc, const char * argv[]) {
+    // start with fresh console
+    prepareConsole();
+    
     devopsGit(); //DevopsGit's question
     structures(); //Structures Question
     devopsIDE(); //dev.ide questions
@@ -27,8 +30,8 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-// clear console
+// put logic to prepare console in here
 void prepareConsole(void)
 {
-    printf("\033");
+    printf("\033"); // clear console
 }
