@@ -2,8 +2,10 @@
 //  main.c
 //  midTermTest
 //
+//  Edited by Colin on 9/4/19.
+//  Edited by Dominick
 //  Edited by Sengupta, Dhruv on 9/4/19.
-//  Copyright © 2019 Sengupta, Dhruv All rights reserved.
+//  Copyright © 2019 Szeto, Colin All rights reserved.
 //  Created by Szeto, Colin on 9/4/19.
 //  Edited by Joseph, here again
 //  Edited by Nagesh, Shreya
@@ -14,9 +16,11 @@
 //  Edited by Colin on 9/4/19
 //  Edited by Alex T
 //  Edited by Mr M
+//  Edited by Bella W. (test)
 //  Edited by Akash Das 
 //  Edited by Mason
-// edited by Michael
+//  Edited by Michael
+//  Edited by Kevin
 
 // standard libraries
 #include <stdio.h>
