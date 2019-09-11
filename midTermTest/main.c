@@ -26,7 +26,7 @@
 //  Edited by Kevin
 //  Edited by Gwendolyn Vestal
 // Edited by Kaitlyn
-//
+// Edited by Andrew Joseph
 
 // standard libraries
 #include <stdio.h>
