@@ -6,7 +6,7 @@
 //  Edited by Tianna
 //  Edited by Colin on 9/4/19
 //  Edited by Mr M
-//  Edited by Gwen Vestal
+//  Edited by Gwendolyn Vestal
 //
 
 // standard libraries
