@@ -1,7 +1,8 @@
-//
+
 //  main.c
 //  midTermTest
 //
+
 //  Edited by Colin on 9/4/19.
 //  Edited by Dominick
 //  Edited by Sengupta, Dhruv on 9/4/19.
@@ -22,7 +23,11 @@
 //  Edited by Akash Das
 //  Edited by Mason
 //  Edited by Michael
+//  Edited by Sengupta, Dhruv
 //  Edited by Kevin
+//  Edited by Gwendolyn Vestal
+// Edited by Kaitlyn
+//
 
 // standard libraries
 #include <stdio.h>
