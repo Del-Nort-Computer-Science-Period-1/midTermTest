@@ -3,7 +3,7 @@
 //  midTermTest
 //
 //  Created by Szeto, Colin on 9/4/19.
-//  Copyright © 2019 Szeto, Colin. All rights reserved.
+//  Copyright © 2019 Taha, Nick. All rights reserved.
 //
 
 // standard libraries
