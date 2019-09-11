@@ -12,6 +12,8 @@
 //  Edited by Mr M
 //  Edited by Akash Das 
 //  Edited by Mason
+//  Edited by Gwen Vestal
+//
 
 // standard libraries
 #include <stdio.h>
