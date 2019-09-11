@@ -3,8 +3,7 @@
 //  midTermTest
 //
 //  Created by Szeto, Colin on 9/4/19.
-//  Copyright © 2019 Szeto, Colin. All rights reserved.
-//
+// Edited by Akash Das
 
 // standard libraries
 #include <stdio.h>
