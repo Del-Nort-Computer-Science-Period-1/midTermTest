@@ -23,6 +23,7 @@
 //  Edited by Michael
 //  Edited by Kevin
 //  Edited by Gwendolyn Vestal
+// Edited by Kaitlyn
 //
 
 // standard libraries
