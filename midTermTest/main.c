@@ -1,7 +1,9 @@
-
+//
 //  main.c
 //  midTermTest
 //
+//  Created by DNHS CS P1 on 9/12/19.
+//  Copyright © 2019 DNHS CS P1. All rights reserved.
 
 // standard libraries
 #include <stdio.h>
