@@ -18,7 +18,8 @@ int devopsGit(void) {
     printf("C. To make your life hard\n");
     printf("D. A website to deconflict error messages and an expanded library of commands\n");
     printf("Choose an answer between A-D\n");
-    answer = getchar();
+    
+    while( (answer=getchar() != '\n') && answer != EOF);
     switch(answer)
     {
         case 'A':
@@ -37,5 +38,7 @@ int devopsGit(void) {
         case 'd':
             printf("Incorrect.\n");
             break;
-    } return 0;
+    }
+    return 0;
+
 }
