@@ -7,16 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD:midTermTest.xcodeproj/project.pbxproj
 		47D6E2F72328059D002A4FBF /* controlflowops.c in Sources */ = {isa = PBXBuildFile; fileRef = 47D6E2F62328059D002A4FBF /* controlflowops.c */; };
-=======
-		3E1057C02322B87C00EDB573 /* devopsIDE.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E1057BF2322B87C00EDB573 /* devopsIDE.c */; };
->>>>>>> 62747ae772273eb64b0d177312723fb6a2bdb41b:midTermTestP1.xcodeproj/project.pbxproj
 		6DD494CF2322B7F0006720F1 /* structures.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DD494CE2322B7F0006720F1 /* structures.c */; };
 		82349F9E2320151300BB354F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82349F9D2320151300BB354F /* main.c */; };
 		A22EF86A2322B5C20023794E /* devopsGit.c in Sources */ = {isa = PBXBuildFile; fileRef = A22EF8692322B5C20023794E /* devopsGit.c */; };
-		C2FFAF932326B27C00557012 /* productowners.c in Sources */ = {isa = PBXBuildFile; fileRef = C2FFAF922326B27C00557012 /* productowners.c */; };
-		E5E41AAB2322BCFD003DC3BB /* Cf.c in Sources */ = {isa = PBXBuildFile; fileRef = E5E41AAA2322BCFD003DC3BB /* Cf.c */; };
+		C2FFAF912326A42A00557012 /* productowners.c in Sources */ = {isa = PBXBuildFile; fileRef = C2FFAF902326A42A00557012 /* productowners.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,23 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD:midTermTest.xcodeproj/project.pbxproj
 		47D6E2F52328059D002A4FBF /* controlflowops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = controlflowops.h; sourceTree = "<group>"; };
 		47D6E2F62328059D002A4FBF /* controlflowops.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = controlflowops.c; sourceTree = "<group>"; };
-=======
-		3E1057BE2322B87C00EDB573 /* devopsIDE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = devopsIDE.h; sourceTree = "<group>"; };
-		3E1057BF2322B87C00EDB573 /* devopsIDE.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = devopsIDE.c; sourceTree = "<group>"; };
->>>>>>> 62747ae772273eb64b0d177312723fb6a2bdb41b:midTermTestP1.xcodeproj/project.pbxproj
 		6DD494CD2322B7F0006720F1 /* structures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structures.h; sourceTree = "<group>"; };
 		6DD494CE2322B7F0006720F1 /* structures.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = structures.c; sourceTree = "<group>"; };
-		82349F9A2320151300BB354F /* midTermTestP1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = midTermTestP1; sourceTree = BUILT_PRODUCTS_DIR; };
+		82349F9A2320151300BB354F /* midTermTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = midTermTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82349F9D2320151300BB354F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A22EF8682322B5C20023794E /* devopsGit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = devopsGit.h; sourceTree = "<group>"; };
 		A22EF8692322B5C20023794E /* devopsGit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = devopsGit.c; sourceTree = "<group>"; };
-		C2FFAF922326B27C00557012 /* productowners.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = productowners.c; sourceTree = "<group>"; };
-		C2FFAF942326B28500557012 /* productowners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = productowners.h; sourceTree = "<group>"; };
-		E5E41AA92322BCFD003DC3BB /* Cf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cf.h; sourceTree = "<group>"; };
-		E5E41AAA2322BCFD003DC3BB /* Cf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Cf.c; sourceTree = "<group>"; };
+		C2FFAF8F2326A42A00557012 /* productowners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = productowners.h; sourceTree = "<group>"; };
+		C2FFAF902326A42A00557012 /* productowners.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = productowners.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +61,7 @@
 		82349F9B2320151300BB354F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82349F9A2320151300BB354F /* midTermTestP1 */,
+				82349F9A2320151300BB354F /* midTermTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,21 +72,12 @@
 				82349F9D2320151300BB354F /* main.c */,
 				A22EF8682322B5C20023794E /* devopsGit.h */,
 				A22EF8692322B5C20023794E /* devopsGit.c */,
-				3E1057BE2322B87C00EDB573 /* devopsIDE.h */,
-				3E1057BF2322B87C00EDB573 /* devopsIDE.c */,
 				6DD494CD2322B7F0006720F1 /* structures.h */,
 				6DD494CE2322B7F0006720F1 /* structures.c */,
-<<<<<<< HEAD:midTermTest.xcodeproj/project.pbxproj
 				C2FFAF8F2326A42A00557012 /* productowners.h */,
 				C2FFAF902326A42A00557012 /* productowners.c */,
 				47D6E2F52328059D002A4FBF /* controlflowops.h */,
 				47D6E2F62328059D002A4FBF /* controlflowops.c */,
-=======
-				C2FFAF922326B27C00557012 /* productowners.c */,
-				C2FFAF942326B28500557012 /* productowners.h */,
-				E5E41AA92322BCFD003DC3BB /* Cf.h */,
-				E5E41AAA2322BCFD003DC3BB /* Cf.c */,
->>>>>>> 62747ae772273eb64b0d177312723fb6a2bdb41b:midTermTestP1.xcodeproj/project.pbxproj
 			);
 			path = midTermTest;
 			sourceTree = "<group>";
@@ -106,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82349F992320151300BB354F /* midTermTestP1 */ = {
+		82349F992320151300BB354F /* midTermTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82349FA12320151300BB354F /* Build configuration list for PBXNativeTarget "midTermTestP1" */;
+			buildConfigurationList = 82349FA12320151300BB354F /* Build configuration list for PBXNativeTarget "midTermTest" */;
 			buildPhases = (
 				82349F962320151300BB354F /* Sources */,
 				82349F972320151300BB354F /* Frameworks */,
@@ -118,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = midTermTestP1;
+			name = midTermTest;
 			productName = midTermTest;
-			productReference = 82349F9A2320151300BB354F /* midTermTestP1 */;
+			productReference = 82349F9A2320151300BB354F /* midTermTest */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 82349F952320151300BB354F /* Build configuration list for PBXProject "midTermTestP1" */;
+			buildConfigurationList = 82349F952320151300BB354F /* Build configuration list for PBXProject "midTermTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82349F992320151300BB354F /* midTermTestP1 */,
+				82349F992320151300BB354F /* midTermTest */,
 			);
 		};
 /* End PBXProject section */
@@ -160,16 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				82349F9E2320151300BB354F /* main.c in Sources */,
-				C2FFAF932326B27C00557012 /* productowners.c in Sources */,
 				A22EF86A2322B5C20023794E /* devopsGit.c in Sources */,
-				E5E41AAB2322BCFD003DC3BB /* Cf.c in Sources */,
 				6DD494CF2322B7F0006720F1 /* structures.c in Sources */,
-<<<<<<< HEAD:midTermTest.xcodeproj/project.pbxproj
 				C2FFAF912326A42A00557012 /* productowners.c in Sources */,
 				47D6E2F72328059D002A4FBF /* controlflowops.c in Sources */,
-=======
-				3E1057C02322B87C00EDB573 /* devopsIDE.c in Sources */,
->>>>>>> 62747ae772273eb64b0d177312723fb6a2bdb41b:midTermTestP1.xcodeproj/project.pbxproj
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +279,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82349F952320151300BB354F /* Build configuration list for PBXProject "midTermTestP1" */ = {
+		82349F952320151300BB354F /* Build configuration list for PBXProject "midTermTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82349F9F2320151300BB354F /* Debug */,
@@ -315,7 +288,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82349FA12320151300BB354F /* Build configuration list for PBXNativeTarget "midTermTestP1" */ = {
+		82349FA12320151300BB354F /* Build configuration list for PBXNativeTarget "midTermTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82349FA22320151300BB354F /* Debug */,
