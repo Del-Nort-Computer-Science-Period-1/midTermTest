@@ -12,6 +12,7 @@
 		82349F9E2320151300BB354F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82349F9D2320151300BB354F /* main.c */; };
 		92A550C623280F5500366485 /* fdt.c in Sources */ = {isa = PBXBuildFile; fileRef = 92A550C523280F5500366485 /* fdt.c */; };
 		A22EF86A2322B5C20023794E /* devopsGit.c in Sources */ = {isa = PBXBuildFile; fileRef = A22EF8692322B5C20023794E /* devopsGit.c */; };
+		C010A5A0232AA74D00D41AF6 /* simpleio.c in Sources */ = {isa = PBXBuildFile; fileRef = C010A59F232AA74D00D41AF6 /* simpleio.c */; };
 		C2FFAF932326B27C00557012 /* productowners.c in Sources */ = {isa = PBXBuildFile; fileRef = C2FFAF922326B27C00557012 /* productowners.c */; };
 		E5E41AAB2322BCFD003DC3BB /* Cf.c in Sources */ = {isa = PBXBuildFile; fileRef = E5E41AAA2322BCFD003DC3BB /* Cf.c */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,8 @@
 		92A550C523280F5500366485 /* fdt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fdt.c; sourceTree = "<group>"; };
 		A22EF8682322B5C20023794E /* devopsGit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = devopsGit.h; sourceTree = "<group>"; };
 		A22EF8692322B5C20023794E /* devopsGit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = devopsGit.c; sourceTree = "<group>"; };
+		C010A59E232AA74D00D41AF6 /* simpleio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simpleio.h; sourceTree = "<group>"; };
+		C010A59F232AA74D00D41AF6 /* simpleio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = simpleio.c; sourceTree = "<group>"; };
 		C2FFAF922326B27C00557012 /* productowners.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = productowners.c; sourceTree = "<group>"; };
 		C2FFAF942326B28500557012 /* productowners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = productowners.h; sourceTree = "<group>"; };
 		E5E41AA92322BCFD003DC3BB /* Cf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cf.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				E5E41AAA2322BCFD003DC3BB /* Cf.c */,
 				92A550C423280F5500366485 /* fdt.h */,
 				92A550C523280F5500366485 /* fdt.c */,
+				C010A59E232AA74D00D41AF6 /* simpleio.h */,
+				C010A59F232AA74D00D41AF6 /* simpleio.c */,
 			);
 			path = midTermTest;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				C2FFAF932326B27C00557012 /* productowners.c in Sources */,
 				A22EF86A2322B5C20023794E /* devopsGit.c in Sources */,
 				E5E41AAB2322BCFD003DC3BB /* Cf.c in Sources */,
+				C010A5A0232AA74D00D41AF6 /* simpleio.c in Sources */,
 				6DD494CF2322B7F0006720F1 /* structures.c in Sources */,
 				3E1057C02322B87C00EDB573 /* devopsIDE.c in Sources */,
 			);
