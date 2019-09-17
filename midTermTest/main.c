@@ -9,7 +9,7 @@
 // external includes from team headers
 #include "devopsGit.h"
 #include "structures.h"
-#include "devopsIDE.h"
+//#include "devopsIDE.h"
 #include "productowners.h"
 
 // protoype for internal functions
@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
     
     devopsGit(); //DevopsGit's question
     structures(); //Structures Question
-    devopsIDE(); //dev.ide questions
+    //devopsIDE(); //dev.ide questions
     productowners(); //product owners question
     
     return 0;
