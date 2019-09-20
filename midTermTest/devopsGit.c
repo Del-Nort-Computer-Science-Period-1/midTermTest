@@ -9,7 +9,7 @@
 #include "devopsGit.h"
 
 int devopsGit(void) {
-    int answer;
+    int answer=0;
     // Question 1 by devopGit
     printf("                  \n");
     printf("What is github?\n");
@@ -19,26 +19,28 @@ int devopsGit(void) {
     printf("D. A website to deconflict error messages and an expanded library of commands\n");
     printf("Choose an answer between A-D\n");
     
-    while( (answer=getchar() != '\n') && answer != EOF);
+    answer=getchar();
+    answer=getchar();
     switch(answer)
     {
         case 'A':
-        case 'a':
+        case 'a':;
             printf("Correct.\n");
+            answer=1;
             break;
         case 'B':
-        case 'b':
+        case 'b':;
             printf("Incorrect.\n");
             break;
         case 'C':
-        case 'c':
+        case 'c':;
             printf("Incorrect.\n");
             break;
         case 'D':
-        case 'd':
+        case 'd':;
             printf("Incorrect.\n");
             break;
     }
-    return 0;
+    return answer;
 
 }

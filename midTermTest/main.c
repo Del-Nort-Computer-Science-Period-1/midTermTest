@@ -11,20 +11,37 @@
 #include "structures.h"
 #include "devopsIDE.h"
 #include "productowners.h"
-
+#include "simple.h"
 // protoype for internal functions
 void prepareConsole(void);
 
 // entry point for MidTerm
 int main(int argc, const char * argv[]) {
     // start with fresh console
+    int score=0;
     prepareConsole();
-    
-    devopsGit(); //DevopsGit's question
-    structures(); //Structures Question
-    devopsIDE(); //dev.ide questions
-    productowners(); //product owners question
-    
+    if (simpleio() ==1)
+    { //this tests the return value and plays the function
+        score++; //if they got it right this adds to the score counter
+    }
+    if (devopsGit() ==1) {//DevopsGit's question
+        score++;
+       }
+    if (structures() ==1) //Structures Question
+    {
+        score++;
+        }
+    if (devopsIDE() ==1) //dev.ide questions
+    {
+        score++;
+        }
+    if (productowners() ==1) //product owners question
+    {
+        score++;
+        }
+    printf("%d out of 5\n", score);
+    printf("%d percent\n",score*100/5 );
+
     return 0;
 }
 

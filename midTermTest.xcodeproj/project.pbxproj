@@ -13,6 +13,7 @@
 		6DD494CF2322B7F0006720F1 /* structures.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DD494CE2322B7F0006720F1 /* structures.c */; };
 		82349F9E2320151300BB354F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82349F9D2320151300BB354F /* main.c */; };
 		A22EF86A2322B5C20023794E /* devopsGit.c in Sources */ = {isa = PBXBuildFile; fileRef = A22EF8692322B5C20023794E /* devopsGit.c */; };
+		C0A6AB1923352ABD00A83C1F /* simple.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A6AB1823352ABD00A83C1F /* simple.c */; };
 		C2FFAF912326A42A00557012 /* productowners.c in Sources */ = {isa = PBXBuildFile; fileRef = C2FFAF902326A42A00557012 /* productowners.c */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,8 @@
 		82349F9D2320151300BB354F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A22EF8682322B5C20023794E /* devopsGit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = devopsGit.h; sourceTree = "<group>"; };
 		A22EF8692322B5C20023794E /* devopsGit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = devopsGit.c; sourceTree = "<group>"; };
+		C0A6AB1723352ABC00A83C1F /* simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = simple.h; path = "../../../Desktop/Tutorial 2/Portfolio/simple.h"; sourceTree = "<group>"; };
+		C0A6AB1823352ABD00A83C1F /* simple.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = simple.c; path = "../../../Desktop/Tutorial 2/Portfolio/simple.c"; sourceTree = "<group>"; };
 		C2FFAF8F2326A42A00557012 /* productowners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = productowners.h; sourceTree = "<group>"; };
 		C2FFAF902326A42A00557012 /* productowners.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = productowners.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				82349F9D2320151300BB354F /* main.c */,
+				C0A6AB1823352ABD00A83C1F /* simple.c */,
+				C0A6AB1723352ABC00A83C1F /* simple.h */,
 				A22EF8682322B5C20023794E /* devopsGit.h */,
 				A22EF8692322B5C20023794E /* devopsGit.c */,
 				3ECB3A1F2331464600C5DE1E /* devopsIDE.c */,
@@ -154,6 +159,7 @@
 				6D2492702331417900AF6D31 /* operators.c in Sources */,
 				C2FFAF912326A42A00557012 /* productowners.c in Sources */,
 				47D6E2F72328059D002A4FBF /* controlflowops.c in Sources */,
+				C0A6AB1923352ABD00A83C1F /* simple.c in Sources */,
 				3ECB3A212331464700C5DE1E /* devopsIDE.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

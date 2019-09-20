@@ -9,7 +9,7 @@
 #include "devopsIDE.h"
 int devopsIDE(void) {
         
-        int (answer);
+        int (answer)=0;
         //The question
         puts("Can the C language have more than one function? : ");
         puts("A. Yes, but IT WILL have detrimental effects to the code.");
@@ -19,32 +19,34 @@ int devopsIDE(void) {
         puts("Enter your answer from A to D \n");
     
         //User input
-        while( (answer=getchar() != '\n') && answer != EOF);
+        answer=getchar();
+        answer=getchar();
         switch(answer)
         {
             case 'A':
-            case 'a':
+            case 'a':;
                 puts("Nope!");
             puts("Multiple functions will not necessarily effect the code in a bad way");
                 break;
             case 'B':
-            case 'b':
+            case 'b':;
                 puts("Yes, Correct! ");
                 puts("When implemented correctly the C code can have multiple functions.");
+                (answer)=1;
                 break;
             case 'C':
-            case 'c':
+            case 'c':;
                 puts("Nope!");
                 puts("Multiple functions could crash the code but,");
                 puts("it is not because there is more than one function.");
                 break;
             case 'D':
-            case 'd':
+            case 'd':;
                 puts("Nope!");
                 puts("Just because there are multiple functions in the C program does not mean it will crash the entire PC.");
                 break;
             default:
                 puts("You responded with an inappropriate number");
         }
-        return 0;
+        return (answer);
     }

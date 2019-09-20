@@ -20,7 +20,7 @@ int controlflowoperatorsAskQuestion(void) {
             puts("D. Both A and B. \n");
             
             puts("Enter your answer from A to D \n");
-            answer = getchar();
+            while( (answer=getchar() != '\n') && answer != EOF);
             switch(answer)
             {
                 case 'b': puts("Good job, you are coorect,");

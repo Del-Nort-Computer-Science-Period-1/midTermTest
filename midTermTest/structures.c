@@ -9,7 +9,7 @@
 #include "structures.h"
 int structures(void)
 {
-    int answer;
+    int answer=0;
     //The question
     puts("Which of the following is NOT a data structure in C?");
     puts("A. Array");
@@ -19,27 +19,29 @@ int structures(void)
     
     //User input
     puts("Enter your answer from A to D \n");
-    while( (answer=getchar() != '\n') && answer != EOF);
+    answer=getchar();
+       answer=getchar();
     switch (answer)
     
     {
         case 'A':
-        case 'a':
+        case 'a':;
             puts("Sorry, you are incorrect.");
             break;
         case 'B':
-        case 'b':
+        case 'b':;
             puts("Yes, correct!");
+            answer=1;
             break;
         case 'C':
-        case 'c':
+        case 'c':;
             puts("Sorry, you are incorrect.");
             break;
         case 'D':
-        case 'd':
+        case 'd':;
             puts("Sorry, you are incorrect.");
             break;
     }
-    return 0;
+    return answer;
 
 }
