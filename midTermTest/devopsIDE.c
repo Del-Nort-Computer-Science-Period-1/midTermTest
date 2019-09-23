@@ -11,6 +11,9 @@ int devopsIDE(void) {
         
         int (answer)=0;
         //The question
+    int loop = 0;
+    while (loop < 1)
+    {
         puts("Can the C language have more than one function? : ");
         puts("A. Yes, but IT WILL have detrimental effects to the code.");
         puts("B. Yes, but it must be implemented correctly");
@@ -27,11 +30,13 @@ int devopsIDE(void) {
             case 'a':;
                 puts("Nope!");
             puts("Multiple functions will not necessarily effect the code in a bad way");
+                loop++;
                 break;
             case 'B':
             case 'b':;
                 puts("Yes, Correct! ");
                 puts("When implemented correctly the C code can have multiple functions.");
+                loop++;
                 (answer)=1;
                 break;
             case 'C':
@@ -39,14 +44,18 @@ int devopsIDE(void) {
                 puts("Nope!");
                 puts("Multiple functions could crash the code but,");
                 puts("it is not because there is more than one function.");
+                loop++;
                 break;
             case 'D':
             case 'd':;
                 puts("Nope!");
                 puts("Just because there are multiple functions in the C program does not mean it will crash the entire PC.");
+                loop++;
                 break;
             default:
                 puts("You responded with an inappropriate number");
+                break;
         }
+    }
         return (answer);
     }
