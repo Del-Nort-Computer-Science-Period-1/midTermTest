@@ -10,6 +10,9 @@
 int productowners(void) {
     
     int answer=0;
+    int loop = 0;
+    while (loop < 1)
+    {
     puts("Who created the C language?\n");
     puts("(A): Dennis Ritchie\n");
     puts("(B): James Gosling\n");
@@ -23,22 +26,29 @@ int productowners(void) {
         case 'A':
         case 'a':;
             puts("Correct!");
+            loop++;
             answer=1;
             break;
         case 'B':
         case 'b':;
             puts("Incorrect.");
+            loop++;
             break;
         case 'C':
         case 'c':;
             puts("Incorrect.");
+            loop++;
             break;
         case 'D':
         case 'd':;
             puts("Incorrect.");
+            loop++;
+            break;
+        default:
+            puts("Thats not an option, pick again");
             break;
     }
-    
+    }
     
     return answer;
 }
